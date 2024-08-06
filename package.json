@@ -1,0 +1,22 @@
+{
+  "name": "code-only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlhaPetrenko/code-only.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlhaPetrenko/code-only/issues"
+  },
+  "homepage": "https://github.com/OlhaPetrenko/code-only#readme",
+  "dependencies": {
+    "swiper": "^11.1.9"
+  }
+}
