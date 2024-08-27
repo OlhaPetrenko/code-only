@@ -1,12 +1,13 @@
 @import url('./reset.css');
 
 
-body{
+body.gallery-page-body{
     font-family: Arial, 'Helvetica Neun', Arial, Helvetica, sans-serif;
     background-color: #000;
     color: #fff;
 }
 .wrapper{
+
     min-height: 100%;
     overflow: clip;
 }
