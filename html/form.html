@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <form action="#" class="form">
+        <h2 class="form-title">Create account</h2>
+        <div class="progress-steps">
+          <div class="progress-step progress-active">
+            <span>Basic Info</span>
+          </div>
+          <div class="progress-step">
+            <span>Contact Info</span>
+          </div>
+          <div class="progress-step">
+            <span>Password</span>
+          </div>
+
+          <div class="progress"></div>
+        </div>
+
+        <div class="form-step form-active">
+          <div class="input-box">
+            <label for="">First Name</label>
+            <input type="text" placeholder="First name" />
+          </div>
+
+          <div class="input-box">
+            <label for="">Last Name</label>
+            <input type="text" placeholder="Last name" />
+          </div>
+
+          <div class="btn-box btn-box1">
+            <a href="#" class="btn btn1 next-btn">Next</a>
+          </div>
+        </div>
+
+        <div class="form-step">
+          <div class="input-box">
+            <label for="">Phone number </label>
+            <input type="tel" placeholder="Phone number" />
+          </div>
+
+          <div class="input-box">
+            <label for="">Email Adress</label>
+            <input type="email" placeholder="Email Adress" />
+          </div>
+
+          <div class="btn-box">
+            <a href="#" class="btn prev-btn">Previous</a>
+            <a href="#" class="btn next-btn">Next</a>
+          </div>
+        </div>
+
+        <div class="form-step">
+          <div class="input-box">
+            <label for="">Password</label>
+            <input type="password" placeholder="Create password" />
+          </div>
+
+          <div class="input-box">
+            <label for="">Confirm Password</label>
+            <input type="password" placeholder="Confirm password" />
+          </div>
+
+          <div class="btn-box">
+            <a href="#" class="btn prev-btn">Previous</a>
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="../js/form.js"></script>
+  </body>
+</html>

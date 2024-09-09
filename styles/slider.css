@@ -44,8 +44,7 @@ pointer-events: all;
 
 .product {
     flex: 1 1 auto; 
-    /* // перевырити */
-    display: flex;
+     display: flex;
     flex-direction: column;
 }
 
@@ -130,7 +129,7 @@ text-transform: uppercase;
 font-weight: 700;
 
 mix-blend-mode: difference; 
-/* ????? */
+
 }
 
 .product-details {
@@ -214,4 +213,11 @@ mix-blend-mode: difference;
     .header-logo, .product-price, .product-buy{
         font-size: 24px;
     }
+}
+
+
+/* ======form-wrapper ===== */
+
+.form-wrapper{
+    height: 500px;
 }
